@@ -17,6 +17,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  attendees.collect{|name| "#{assign_rooms(attendees)}"}
+  attendees.collect{|name| "#{assign_rooms(name)}"}
 
 end
