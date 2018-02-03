@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   #attendees.collect do |name|
-    puts "#{assign_rooms(attendees)}""
+    puts "#{assign_rooms(attendees)}"
 
 end
